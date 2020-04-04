@@ -1,0 +1,14 @@
+
+first_variable
+date
+Fri 03 Apr 2020 10:12:34 PM -03: date
+Fri 03 Apr 2020 10:13:41 PM -03: date
+Fri 03 Apr 2020 10:14:39 PM -03: date a
+Fri 03 Apr 2020 10:14:49 PM -03: date
+Fri 03 Apr 2020 10:15:54 PM -03: date a
+Fri 03 Apr 2020 10:16:09 PM -03: date a
+Fri 03 Apr 2020 10:16:14 PM -03: date a b 1 2
+Fri 03 Apr 2020 10:19:36 PM -03: date a b 1 2
+Fri 03 Apr 2020 10:35:42 PM -03:
+Fri 03 Apr 2020 10:38:26 PM -03:
+Fri 03 Apr 2020 10:38:42 PM -03:
