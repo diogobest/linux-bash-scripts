@@ -2,6 +2,7 @@
 
 # Example of script to initialize a new directory and clone project from github
 # github remote example: git@github.com:github_user_name/github_project_name.git
+# Author: Diogo
 
 read -p "Write your github user name: " github_user_name
 read -p "Write your github project name: " github_project_name
