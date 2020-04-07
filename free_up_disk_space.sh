@@ -11,8 +11,9 @@ clean_apt_get_files()
 
 clean_docker_images()
 {
-  # will remove all unused containers
-  docker system prune
+  # will remove all unused containers, -f for skip prompt. For more information,
+  # read: https://docs.docker.com/config/pruning/#prune-images
+  docker system prune -af
 }
 
 echo 'starting clean up'
