@@ -1,6 +1,7 @@
 #!/bin/bash
-# execute the script with sudo/root permissions, on the first time.
-apt-cache policy youtube-dl
+# Verify if youtube-dl is installed. Type is ok to use too, which shouldnt be
+# used.
+command -v youtube-dl
 if [ $? -eq 1 ]; then
   echo "------------------------"
   echo 'Installing dependecies: youtube-dl'
