@@ -13,32 +13,32 @@ fi
 
 download_one_video()
 {
-  read -p 'Paste a link to download: ' link_youtube
-  youtube-dl $link_youtube
+  read -r 'Paste a link to download: ' link_youtube
+  youtube-dl "$link_youtube"
 }
 
 download_video_via_batch_file()
 {
-  read -p 'Paste route to file: ' batch_file
-  youtube-dl -a $batch_file
+  read -r 'Paste route to file: ' batch_file
+  youtube-dl -a"$batch_file"
 }
 
 download_playlist()
 {
-  read -p 'Paste route to file, example: ../teste: ' batch_file
-  youtube-dl -yes-playlist $batch_file
+  read -r 'Paste route to file, example: ../teste: ' batch_file
+  youtube-dl -yes-playlist "$batch_file"
 }
 
-while [  "$option" != 0 ]
+while [ "$option" != 0 ]
 do
   echo '----------------------------------------------------------------------'
-  echo '                    Select number option'
+  echo '                    Select number option                              '
   echo '----------------------------------------------------------------------'
   echo '[1] download one video'
   echo '[2] download videos via batch file'
   echo '[3] download playlist'
   echo '[0] Exit'
-  read -p 'Select option: ' option
+  read -p 'Select option ' option
   case $option in
     1) download_one_video;;
     2) download_video_via_batch_file;;
