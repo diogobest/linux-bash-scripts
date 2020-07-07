@@ -1,0 +1,7 @@
+version: '3'
+services:
+  linux:
+    image: debian:buster
+    volumes:
+      - .:/bash
+    working_dir: "/bash"
